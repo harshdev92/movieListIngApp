@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should snapshot test movieItem 1`] = `
+<div
+  className="lg:mb-16 pr-5 mb-4"
+>
+  <span
+    className=" lazy-load-image-background blur"
+    style={
+      Object {
+        "backgroundImage": "",
+        "backgroundSize": "",
+        "color": "transparent",
+        "display": "inline-block",
+        "height": undefined,
+        "width": undefined,
+      }
+    }
+  >
+    <span
+      className=" min-w-full lg:w-48"
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    />
+  </span>
+  <p
+    className="text-gray-500 lg:text-sm text-xs lg:my-2 "
+  >
+    The Birds
+     
+  </p>
+</div>
+`;

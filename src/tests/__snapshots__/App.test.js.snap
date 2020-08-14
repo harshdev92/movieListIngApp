@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should snapshot test App 1`] = `
+Array [
+  <div
+    className="bg-transparent flex px-3 justify-between fixed w-full z-40 top-0 "
+    style={
+      Object {
+        "background": "url(/slices/nav_bar.png )",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <div
+      className="flex justify-center items-center"
+    >
+      <img
+        alt="back_Button"
+        className="w-5"
+        src="/slices/Back.png"
+      />
+      <p
+        className="text-white px-5 text-sm "
+      >
+        Romantic Comedy
+      </p>
+    </div>
+    <div
+      className="relative flex w-1/4  flex-wrap items-end justify-end mb-3"
+    >
+      <input
+        className="px-3 py-3 placeholder-gray-400 text-gray-700 relative rounded text-sm z-10 outline-none focus:outline-none focus:shadow-outline w-full pr-10 bg-black bg-opacity-0"
+        onChange={[Function]}
+        type="text"
+      />
+      <span
+        className="h-full leading-snug font-normal absolute text-center text-gray-400 absolute rounded text-base items-center justify-center w-8 right-0 pr-3 py-3"
+      >
+        <img
+          alt="back_Button"
+          className="w-5"
+          src="/slices/search.png"
+        />
+      </span>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "backgroundColor": "#171717",
+        "marginTop": "35px",
+      }
+    }
+  >
+    <div>
+      <div
+        className="grid grid-cols-3 lg:grid-cols-5 sm:grid-cols-4 lg:ml-12 lg:pt-12 ml-5 py-6 pt-8"
+      />
+      <div
+        className="loader"
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        Loading ...
+      </div>
+    </div>
+  </div>,
+]
+`;
